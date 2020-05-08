@@ -1,0 +1,15 @@
+0.5 24jun2016
+* update to match wetter api 5.0.2 - 2015/06/01 (thanks to michael buchfink)
+
+0.4 14oct2015
+* update readme with weewx 3.x instructions
+
+0.3 24jul2015
+* obfuscate passwort in logs
+
+0.2 06dec2014
+* consolidated installation instructions
+* update to weewx v3
+
+0.1 01feb2014
+* initial release as packaged weewx extension
