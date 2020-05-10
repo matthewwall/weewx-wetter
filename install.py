@@ -1,8 +1,7 @@
-# $Id: install.py 1492 2016-06-24 15:42:44Z mwall $
 # installer for wetter.com
-# Copyright 2014 Matthew Wall
+# Copyright 2014-2020 Matthew Wall
 
-from setup import ExtensionInstaller
+from weecfg.extension import ExtensionInstaller
 
 def loader():
     return WetterInstaller()
@@ -10,7 +9,7 @@ def loader():
 class WetterInstaller(ExtensionInstaller):
     def __init__(self):
         super(WetterInstaller, self).__init__(
-            version="0.5",
+            version="0.6",
             name='wetter',
             description='Upload weather data to wetter.com.',
             author="Matthew Wall",

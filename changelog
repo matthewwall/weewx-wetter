@@ -1,3 +1,6 @@
+0.6 10may2020
+* Ported by Python 3 and WeeWX V4. -tk
+
 0.5 24jun2016
 * update to match wetter api 5.0.2 - 2015/06/01 (thanks to michael buchfink)
 
