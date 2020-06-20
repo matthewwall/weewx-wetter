@@ -10,7 +10,7 @@ def loader():
 class WetterInstaller(ExtensionInstaller):
     def __init__(self):
         super(WetterInstaller, self).__init__(
-            version="0.6",
+            version="0.7",
             name='wetter',
             description='Upload weather data to wetter.com.',
             author="Matthew Wall",

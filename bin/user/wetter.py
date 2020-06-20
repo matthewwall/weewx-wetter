@@ -29,7 +29,7 @@ import weewx
 import weewx.restx
 import weewx.units
 
-VERSION = "0.6"
+VERSION = "0.7"
 API_VERSION = "5.0.2 - 2015/06/01"
 
 if weewx.__version__ < "3":
@@ -139,7 +139,7 @@ class WetterThread(weewx.restx.RESTThread):
 
     def check_response(self, response):
         """Override, and check for wetter errors."""
-        txt = response.read().lower()
+        txt = response.read().decode().lower()
         if txt.find('"errorcode":"100"') != -1 or \
            txt.find('"errorcode":"101"') != -1 or \
            txt.find('"errorcode":"102"') != -1:
