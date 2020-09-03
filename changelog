@@ -1,3 +1,6 @@
+0.7 20jun2020
+* Decode response first. -tk
+
 0.6 10may2020
 * Ported by Python 3 and WeeWX V4. -tk
 
